@@ -2,4 +2,4 @@ Lista_zakupów = {'piekarnia':['chleb','bułki','pączek'],'warzywniak':['marche
 
 print('Lista zakupów')
 for shop, products  in Lista_zakupów.items():
-   print('Idę do %s, kupuję tu następujące rzeczy: %s.' %(shop), ", ".join(products))
+   print('Idę do %s, kupuję tu następujące rzeczy: %s.' %(shop.upper(), ", ".join(products).upper()))
